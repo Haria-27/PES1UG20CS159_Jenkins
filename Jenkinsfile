@@ -10,8 +10,6 @@ pipeline{
     stage('Test'){
       steps{
         sh './task5'
-        sh 'exit 1' //error
-    
       }
     }
    stage('Deploy'){
